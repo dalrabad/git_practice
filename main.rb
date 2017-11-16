@@ -1,5 +1,6 @@
+require 'colorize'
 def menu
-    puts "1 Enter git command"
+    puts "1 Enter git command".colorize(:yellow)
     puts "2 Exit"
     choice = gets.to_i
     case choice
